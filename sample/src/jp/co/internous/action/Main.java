@@ -10,6 +10,3 @@ public class Main {
 		return num1+num2;
 	}
 }
-for(Map.){
-	
-}
