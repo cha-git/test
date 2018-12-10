@@ -49,7 +49,7 @@ public class MySQLServlet extends HttpServlet {
 		String password = "mysql";
 
 		try{
-			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(url, user, password);
 
 			Statement stmt = conn.createStatement();
@@ -72,10 +72,6 @@ public class MySQLServlet extends HttpServlet {
 			out.println("ClassNotFoundException：" + e.getMessage());
 		}catch(SQLException e){
 			out.println("SQLException：" + e.getMessage());
-		}catch(IllegalAccessException e){
-			out.println("IllegalAccessException：" + e.getMessage());
-		}catch(InstantiationException e){
-			out.println("InstantiationException：" + e.getMessage());
 		}
 		finally{
 			try{

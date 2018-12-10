@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>login</display-name>
+  <welcome-file-list>
+	<welcomefile>login.jsp</welcomefile>
+  </welcome-file-list>
+
+  <filter>
+  	<filter-name>struts2</filtername>
+  	<filterclass>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filterclass>
+  </filter>
+</web-app>
