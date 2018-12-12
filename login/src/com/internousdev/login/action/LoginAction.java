@@ -10,12 +10,13 @@ public class LoginAction extends ActionSupport{
 	private String password;
 
 	public String execute() throws SQLException{
-		String ret = ERROR;
+		String ret = "ERROR";
 		LoginDAO dao = new LoginDAO();
 		LoginDTO dto = new LoginDTO();
 
 		//「DAOクラス」を呼び出してDBに接続する。ユーザーが入力した「ログインID」と「パスワード」に一致する情報があるか検索する。
 		dto = dao.select(name, password);
+
 		if(name.equals(dto.getName())){
 			if(password.equals(dto.getPassword())){
 				ret = "SUCCESS";

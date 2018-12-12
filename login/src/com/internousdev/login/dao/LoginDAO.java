@@ -26,7 +26,7 @@ public class LoginDAO {
 			if(rs.next()){
 				//select文でDBから取得した内容をDTOクラスに格納
 				dto.setName(rs.getString("user_name"));
-				dto.setName(rs.getString("password"));
+				dto.setPassword(rs.getString("password"));
 			}
 		}catch(SQLException e){
 			//処理中にSQL関連のエラーが発生した際に実行する処理
