@@ -8,5 +8,7 @@
 <fullyQualifiedTypeName name="com.internousdev.webproj3.dao.HelloStrutsDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj3.dto.HelloStrutsDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj3.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.dto.InquiryDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj3.util.DBConnector"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.dao.TestDAO"/>
 </qualifiedTypeNameHistroy>
