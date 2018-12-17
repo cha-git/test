@@ -5,4 +5,8 @@
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj2.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj2.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.dao.HelloStrutsDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.util.DBConnector"/>
 </qualifiedTypeNameHistroy>
