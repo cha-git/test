@@ -14,13 +14,18 @@
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dao.HelloStrutsDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dto.HelloStrutsDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dao.LoginDAO"/>
-<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dao.InquiryCompleteDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dto.InquiryDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dao.TestDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dto.LoginDTO"/>
-<fullyQualifiedTypeName name="com.internousdev.webproj5.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5.dao.HelloStrutsDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5.dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dao.InquiryDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dto.InquiryDTO"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.util.DBConnector"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dao.TestDAO"/>
 </qualifiedTypeNameHistroy>
